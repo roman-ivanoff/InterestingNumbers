@@ -56,15 +56,31 @@
 		FD17BAFF297582220086329A /* InterestingNumbers */ = {
 			isa = PBXGroup;
 			children = (
-				FD17BB00297582220086329A /* AppDelegate.swift */,
-				FD17BB02297582220086329A /* SceneDelegate.swift */,
+				FDCB4745297964710046D20D /* Supporting Files */,
+				FDCB4744297964470046D20D /* Resources */,
 				FD17BB04297582220086329A /* ViewController.swift */,
 				FD17BB06297582220086329A /* Main.storyboard */,
+			);
+			path = InterestingNumbers;
+			sourceTree = "<group>";
+		};
+		FDCB4744297964470046D20D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				FD17BB09297582250086329A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FDCB4745297964710046D20D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD17BB00297582220086329A /* AppDelegate.swift */,
+				FD17BB02297582220086329A /* SceneDelegate.swift */,
 				FD17BB0B297582250086329A /* LaunchScreen.storyboard */,
 				FD17BB0E297582250086329A /* Info.plist */,
 			);
-			path = InterestingNumbers;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,12 +304,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = InterestingNumbers/Info.plist;
+				INFOPLIST_FILE = "InterestingNumbers/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,12 +332,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = InterestingNumbers/Info.plist;
+				INFOPLIST_FILE = "InterestingNumbers/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
