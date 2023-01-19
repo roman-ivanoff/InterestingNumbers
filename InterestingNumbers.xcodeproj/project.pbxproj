@@ -14,6 +14,9 @@
 		FD17BB0A297582250086329A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD17BB09297582250086329A /* Assets.xcassets */; };
 		FD17BB0D297582250086329A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17BB0B297582250086329A /* LaunchScreen.storyboard */; };
 		FDCB4747297966A90046D20D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCB4746297966A90046D20D /* Localizable.strings */; };
+		FDCB474C297968810046D20D /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDCB4749297968810046D20D /* OpenSans-Light.ttf */; };
+		FDCB474D297968810046D20D /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDCB474A297968810046D20D /* OpenSans-SemiBold.ttf */; };
+		FDCB474E297968810046D20D /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDCB474B297968810046D20D /* OpenSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		FD17BB0C297582250086329A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD17BB0E297582250086329A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDCB4746297966A90046D20D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FDCB4749297968810046D20D /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		FDCB474A297968810046D20D /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		FDCB474B297968810046D20D /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		FDCB4744297964470046D20D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FDCB47482979686A0046D20D /* Fonts */,
 				FD17BB09297582250086329A /* Assets.xcassets */,
 				FDCB4746297966A90046D20D /* Localizable.strings */,
 			);
@@ -84,6 +91,16 @@
 				FD17BB0E297582250086329A /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDCB47482979686A0046D20D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB474B297968810046D20D /* OpenSans-Bold.ttf */,
+				FDCB4749297968810046D20D /* OpenSans-Light.ttf */,
+				FDCB474A297968810046D20D /* OpenSans-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD17BB0D297582250086329A /* LaunchScreen.storyboard in Resources */,
+				FDCB474E297968810046D20D /* OpenSans-Bold.ttf in Resources */,
 				FDCB4747297966A90046D20D /* Localizable.strings in Resources */,
 				FD17BB0A297582250086329A /* Assets.xcassets in Resources */,
+				FDCB474C297968810046D20D /* OpenSans-Light.ttf in Resources */,
+				FDCB474D297968810046D20D /* OpenSans-SemiBold.ttf in Resources */,
 				FD17BB08297582220086329A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
