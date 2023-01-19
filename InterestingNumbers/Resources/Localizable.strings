@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  InterestingNumbers
+
+  Created by Roman Ivanov on 19.01.2023.
+  
+*/
+
+"title" = "Interesting Numbers";
+"about_title" = "This App about facts of Numbers and Dates";
+"user_number" = "User number";
+"random_number" = "Random number";
+"in_range" = "Number in a range";
+"multiple_numbers" = "Multiple numbers";
+"enter_here" = "Enter here";
+"display_fact" = "Display Fact";
+"ok" = "ok";
+"error" = "Error";
+"enter_number" = "Please, enter a number";
+"numberInRange_error" = "Please, enter in correct format: N..M (where N < M)";
+"multipleNumbers_error" = "Please, enter in correct format: 1,2 (2 or more)";
